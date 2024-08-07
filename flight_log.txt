@@ -1,0 +1,28 @@
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Pitch: 34 degrees
+Roll: 34 degrees
+Yaw: 0 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Pitch: 34 degrees
+Roll: 34 degrees
+Yaw: 46 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Pitch: 34 degrees
+Roll: 34 degrees
+Yaw: 46 degrees
+Altitude: 991 ft
+Airspeed: 252 knots
+Orientation: 1 degrees
+-------------------------
