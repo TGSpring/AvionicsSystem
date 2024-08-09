@@ -129,13 +129,19 @@
   <ItemGroup>
     <ClCompile Include="AvionicsSystem.cpp" />
     <ClCompile Include="FlightControl.cpp" />
+    <ClCompile Include="GPSsim.cpp" />
     <ClCompile Include="SensorSim.cpp" />
     <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="WeatherSim.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FlightControl.h" />
+    <ClInclude Include="GPSdata.h" />
+    <ClInclude Include="GPSsim.h" />
     <ClInclude Include="UserInterface.h" />
     <ClInclude Include="SensorSim.h" />
+    <ClInclude Include="WeatherData.h" />
+    <ClInclude Include="WeatherSim.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
