@@ -119,3 +119,28 @@ void UserInterface::displayWeatherData(const WeatherSim& weather) const {
     std::cout << "Wind Speed: " << data.windSpeed << " m/s" "\n";
 
 }
+
+
+void UserInterface::exportDataToTxt(const SensorSim& ss, const GPSsim& gps, const WeatherSim& weather) const {
+    std::ofstream outFile("flight_log.txt", std::ios::app);
+    if (outFile.is_open()) {
+        outFile << "Altitude: " << ss.getAltitude() << " ft\n";
+        outFile << "Airspeed: " << ss.getAirspeed() << " knots\n";
+        outFile << "Orientation: " << ss.getOrientation() << " degrees\n";
+
+        GPSdata gpsData = gps.getCurrentData();
+        outFile << "Latitude: " << gpsData.latitude << "\n";
+        outFile << "Longitude: " << gpsData.longitude << "\n";
+        outFile << "GPS Altitude: " << gpsData.altitude << " feet\n";
+
+        WeatherData weatherData = weather.getCurrentData();
+        outFile << "Temperature: " << weatherData.temperature << "C\n";
+        outFile << "Humidity: " << weatherData.humidity << "%\n";
+        outFile << "Wind Speed: " << weatherData.windSpeed << " m/s\n";
+        outFile << "-------------------------\n";
+        outFile.close();
+    }
+    else {
+        std::cerr << "Unable to open log file\n";
+    }
+}
