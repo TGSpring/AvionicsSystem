@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <limits>
+#include <cstdlib>
 
 void UserInterface::displayMenu() const {
     std::cout << "=== Avionics System Menu ===\n";
@@ -11,7 +12,8 @@ void UserInterface::displayMenu() const {
     std::cout << "4. Display Sensor Data\n";
     std::cout << "5. Display GPS Data\n";
     std::cout << "6. Display Weather Data\n";
-    std::cout << "7. Exit\n";
+    std::cout << "7. Run ML Analysis\n";
+    std::cout << "8. Exit\n";
     std::cout << "Choose an option: ";
 }
 
@@ -37,7 +39,7 @@ void UserInterface::handleInput(FlightControl& fc, SensorSim& ss, GPSsim& gps, W
         displayMenu();
         std::cin >> choice;
 
-        if (std::cin.fail() || choice < 1 || choice > 7) {
+        if (std::cin.fail() || choice < 1 || choice > 8) {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cout << "Invalid option. Please try again.\n";
@@ -78,6 +80,9 @@ void UserInterface::handleInput(FlightControl& fc, SensorSim& ss, GPSsim& gps, W
             displayWeatherData(weather);
             break;
         case 7:
+            runMLAnalysis(ss, gps, weather, "flight_log.txt", "results.csv");
+            break;
+        case 8:
             return;
 
         default:
@@ -142,5 +147,23 @@ void UserInterface::exportDataToTxt(const SensorSim& ss, const GPSsim& gps, cons
     }
     else {
         std::cerr << "Unable to open log file\n";
+    }
+}
+
+
+void UserInterface::runMLAnalysis(const SensorSim& ss, const GPSsim& gps, const WeatherSim& weather, 
+    const std::string& inputFilePath, const std::string& outputFilePath) const {
+    exportDataToTxt(ss, gps, weather);
+
+    std::string command = "python run_ml_model.py " + inputFilePath + " " + outputFilePath;
+
+
+    int result = system(command.c_str());
+
+    if (result != 0) {
+        std::cerr << "Error: ML analysis failed." << std::endl;
+    }
+    else {
+        std::cout << "ML analysis completed. Results saved to " << outputFilePath << std::endl;
     }
 }
