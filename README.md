@@ -1,42 +1,47 @@
-# Avionics System Simulation
+# Avionics System
 
-## Introduction
+## Overview
 
-Welcome to the Avionics System Simulation project! This project is a simulation of an avionics system, which is a part of an aircraft's electronic systems responsible for controlling various flight parameters. This program allows users to adjust pitch, roll, and yaw angles, and display sensor data such as altitude, airspeed, and orientation.
-
-## Purpose
-
-The primary goal of this project is to demonstrate and improve my proficiency in C++ programming. Through this project, I aim to:
-
-- Develop a solid understanding of C++ concepts and best practices.
-- Gain hands-on experience with real-world applications of C++.
-- Showcase my coding skills and problem-solving abilities to potential employers.
+This project simulates an avionics system and includes features for managing flight controls, sensor data, GPS data, and weather information. The `ML_Attempt` branch specifically incorporates machine learning features for analyzing flight data.
 
 ## Features
 
-- **Adjust Flight Controls**: Users can adjust the pitch, roll, and yaw angles of the aircraft.
-- **Display Sensor Data**: The system simulates and displays sensor data including altitude, airspeed, and orientation.
-- **User-Friendly Interface**: The program provides a simple text-based menu for interacting with the system.
+### Main Branch
+- **Flight Control Management**: Adjust pitch, roll, and yaw of the aircraft.
+- **Sensor Data**: Display altitude, airspeed, and orientation from sensors.
+- **GPS Data**: Retrieve and display GPS coordinates and altitude.
+- **Weather Data**: Show temperature, humidity, and wind speed from weather sensors.
 
-## Getting Started
+### ML_Attempt Branch
+- **Machine Learning Integration**:
+  - **Data Logging**: Collects flight data into `flight_log.txt`.
+  - **Model Training**: Uses linear regression to analyze flight data.
+  - **Visualization**: Generates plots of actual vs. predicted values from the ML model.
+  - **Results Export**: Saves ML model predictions to `results.csv`.
 
-### Prerequisites
+## Requirements
 
-- Visual Studio 2019 or later
-- Basic understanding of C++ programming
+- Python 3.x
+- pandas
+- scikit-learn
+- matplotlib
 
-### Installation
+## Usage
+   - 1. Build and Run: Compile the code and execute the program. Navigate through the menu to use the different features.
+   - 2. Run ML Analysis:
+        - Ensuse "Flight_log.txt" contains data to be analyzed.
+## Testing
+- **Testing is an important part of the development process to ensure that all features are functioning correctly and the ML model performs as expected. The testing phase includes**:
 
-1. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/avionics-system-simulation.git
-    ```
+- **Unit Testing**: Testing individual functions and methods to ensure they work as intended. This involves verifying that each component of the system, such as the ML data processing and model training functions, behaves correctly in isolation.
+- **Integration Testing**: Ensuring that different parts of the system work together seamlessly. This involves testing the interactions between the user interface, data logging, and machine learning components to ensure that they function together without issues.
+- **ML Model Evaluation**: Evaluating the performance of the machine learning model using different datasets and metrics. This will help in understanding how well the model generalizes to unseen data and its overall accuracy.
 
-2. Open the solution file (`AvionicsSystem.sln`) in Visual Studio.
+- Note: Testing is the next phase and is not fully implemented yet. As development progresses, more detailed testing will be added to ensure the reliability and robustness of the system.
+## Installation
 
-3. Build and run the project.
+1. Clone the repository:
 
-### Usage
-
-1. Run the program.
-2. Follow the on-screen menu to adjust flight controls or display sensor data.
+   ```sh
+   git clone https://github.com/your-username/AvionicsSystem.git
+   cd AvionicsSystem
