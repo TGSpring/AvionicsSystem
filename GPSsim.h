@@ -21,4 +21,5 @@ private:
 	std::uniform_real_distribution<> latitudeDist;
 	std::uniform_real_distribution<> longitudeDist;
 	std::uniform_int_distribution<> altitudeDist;
+	std::uniform_real_distribution<> noiseDist;
 };
