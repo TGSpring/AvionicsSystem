@@ -253,3 +253,351 @@ Temperature: 32.9822C
 Humidity: 69.8398%
 Wind Speed: 0.326876 m/s
 -------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.7739
+Longitude: -122.42
+GPS Altitude: 30930 feet
+Temperature: -18.1602C
+Humidity: 3.97037%
+Wind Speed: 3.50818 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 37.787
+Longitude: -122.409
+GPS Altitude: 30411 feet
+Temperature: 4.35684C
+Humidity: 64.1414%
+Wind Speed: 0.168712 m/s
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1001.83 ft
+Airspeed: 250.631 knots
+Orientation: 0.763348 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1002.21 ft
+Airspeed: 251.095 knots
+Orientation: 2.08872 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1001.05 ft
+Airspeed: 249.758 knots
+Orientation: 2.74075 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1002.16 ft
+Airspeed: 250.432 knots
+Orientation: 2.5859 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000.82 ft
+Airspeed: 249.878 knots
+Orientation: 2.81599 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.407 ft
+Airspeed: 249.509 knots
+Orientation: 3.52977 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 998.645 ft
+Airspeed: 249.077 knots
+Orientation: 2.83335 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 998.764 ft
+Airspeed: 249.461 knots
+Orientation: 3.3183 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.737 ft
+Airspeed: 249.331 knots
+Orientation: 1.1583 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.807 ft
+Airspeed: 250.874 knots
+Orientation: 0.227499 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.871 ft
+Airspeed: 251.691 knots
+Orientation: 1.4315 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000.01 ft
+Airspeed: 251.401 knots
+Orientation: 0.874989 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000.68 ft
+Airspeed: 252.276 knots
+Orientation: 1.05782 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000.11 ft
+Airspeed: 252.47 knots
+Orientation: 1.27507 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 998.313 ft
+Airspeed: 251.324 knots
+Orientation: -1.97977 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 997.189 ft
+Airspeed: 252.045 knots
+Orientation: -1.56678 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 997.137 ft
+Airspeed: 250.337 knots
+Orientation: -2.05591 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 997.318 ft
+Airspeed: 249.446 knots
+Orientation: -3.51454 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.025 ft
+Airspeed: 249.647 knots
+Orientation: -2.02511 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 998.974 ft
+Airspeed: 249.161 knots
+Orientation: -2.32677 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.149 ft
+Airspeed: 248.265 knots
+Orientation: -2.32788 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.016 ft
+Airspeed: 248.623 knots
+Orientation: -1.72225 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 997.785 ft
+Airspeed: 248.033 knots
+Orientation: -1.01244 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.304 ft
+Airspeed: 248.073 knots
+Orientation: -0.94188 degrees
+-------------------------
+Altitude: 999.304 ft
+Airspeed: 248.073 knots
+Orientation: -0.94188 degrees
+Latitude: 37.787
+Longitude: -122.409
+GPS Altitude: 30411 feet
+Temperature: 4.35684C
+Humidity: 64.1414%
+Wind Speed: 0.168712 m/s
+-------------------------
+Log Type: Pitch
+Pitch: 123 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Log Type: Roll
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 0 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Log Type: Yaw
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 123 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 123 degrees
+Altitude: 1000.1 ft
+Airspeed: 249.335 knots
+Orientation: -0.878718 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 123 degrees
+Altitude: 1001.37 ft
+Airspeed: 250.759 knots
+Orientation: -1.6788 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 123 degrees
+Altitude: 1000.93 ft
+Airspeed: 250.902 knots
+Orientation: -0.359608 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 123 degrees
+Roll: 213 degrees
+Yaw: 123 degrees
+Altitude: 1000.22 ft
+Airspeed: 251.522 knots
+Orientation: -1.15642 degrees
+-------------------------
+Altitude: 1000.22 ft
+Airspeed: 251.522 knots
+Orientation: -1.15642 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: 29.9205C
+Humidity: 45.8692%
+Wind Speed: 16.2329 m/s
+-------------------------
