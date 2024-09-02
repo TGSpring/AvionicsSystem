@@ -30,6 +30,7 @@ void UserInterface::fetchAndDisplayGPSData() {
         std::cerr << "Error: Could not open gps_data.json" << std::endl; // Updated to match the correct filename
     }
 }
+
 void UserInterface::displayMenu() const {
     std::cout << "=== Avionics System Menu ===\n";
     std::cout << "1. Adjust Pitch\n";
@@ -100,7 +101,7 @@ void UserInterface::handleInput(FlightControl& fc, SensorSim& ss, GPSsim& gps, W
             break;
 
         case 5:
-            displayGPSData(gps);
+            fetchAndDisplayGPSData();
             break;
         case 6:
             displayWeatherData(weather);
@@ -147,10 +148,8 @@ void UserInterface::displayWeatherData(const WeatherSim& weather) const {
     WeatherData data = weather.getCurrentData();
     std::cout << "Temperature: " << data.temperature << "C" << "\n";
     std::cout << "Humidity: " << data.humidity << "%" << "\n";
-    std::cout << "Wind Speed: " << data.windSpeed << " m/s" "\n";
-
+    std::cout << "Wind Speed: " << data.windSpeed << " m/s" << "\n";
 }
-
 
 void UserInterface::exportDataToTxt(const SensorSim& ss, const GPSsim& gps, const WeatherSim& weather) const {
     std::ofstream outFile("flight_log.txt", std::ios::app);
@@ -176,13 +175,11 @@ void UserInterface::exportDataToTxt(const SensorSim& ss, const GPSsim& gps, cons
     }
 }
 
-
-void UserInterface::runMLAnalysis(const SensorSim& ss, const GPSsim& gps, const WeatherSim& weather, 
+void UserInterface::runMLAnalysis(const SensorSim& ss, const GPSsim& gps, const WeatherSim& weather,
     const std::string& inputFilePath, const std::string& outputFilePath) const {
     exportDataToTxt(ss, gps, weather);
 
     std::string command = "python run_ml_model.py " + inputFilePath + " " + outputFilePath;
-
 
     int result = system(command.c_str());
 
