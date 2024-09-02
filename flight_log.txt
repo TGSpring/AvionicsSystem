@@ -1,122 +1,120 @@
-Pitch: 0 degrees
+Log Type: Pitch
+Pitch: 2 degrees
 Roll: 0 degrees
 Yaw: 0 degrees
 Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
-Pitch: 34 degrees
-Roll: 34 degrees
+Log Type: Roll
+Pitch: 2 degrees
+Roll: 2 degrees
 Yaw: 0 degrees
 Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
-Pitch: 34 degrees
-Roll: 34 degrees
-Yaw: 46 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 34 degrees
-Roll: 34 degrees
-Yaw: 46 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Pitch: 0 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 0 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 345 degrees
-Roll: 345 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 345 degrees
-Roll: 345 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 0 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 0 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 45 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 3 degrees
-Yaw: 0 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Pitch: 3 degrees
-Roll: 3 degrees
+Log Type: Yaw
+Pitch: 2 degrees
+Roll: 2 degrees
 Yaw: 3 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
 -------------------------
-Pitch: 3 degrees
-Roll: 3 degrees
+Log Type: Sensor Data
+Pitch: 2 degrees
+Roll: 2 degrees
 Yaw: 3 degrees
-Altitude: 981 ft
-Airspeed: 256 knots
-Orientation: 2 degrees
+Altitude: 1000.82 ft
+Airspeed: 250.384 knots
+Orientation: 0.192736 degrees
 -------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 999.289 ft
+Airspeed: 248.944 knots
+Orientation: 1.53186 degrees
+-------------------------
+Altitude: 999.289 ft
+Airspeed: 248.944 knots
+Orientation: 1.53186 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -22.9135C
+Humidity: 93.3353%
+Wind Speed: 2.41077 m/s
+-------------------------
+Log Type: Yaw
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 4 degrees
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+-------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 4 degrees
+Altitude: 999.604 ft
+Airspeed: 250.742 knots
+Orientation: 0.958973 degrees
+-------------------------
+Altitude: 999.604 ft
+Airspeed: 250.742 knots
+Orientation: 0.958973 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -11.6209C
+Humidity: 82.1524%
+Wind Speed: 3.49274 m/s
+-------------------------
+Altitude: 999.604 ft
+Airspeed: 250.742 knots
+Orientation: 0.958973 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -11.6209C
+Humidity: 82.1524%
+Wind Speed: 3.49274 m/s
+-------------------------
+Altitude: 999.604 ft
+Airspeed: 250.742 knots
+Orientation: 0.958973 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -11.6209C
+Humidity: 82.1524%
+Wind Speed: 3.49274 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -5.79074C
+Humidity: 22.6186%
+Wind Speed: 15.3568 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -5.79074C
+Humidity: 22.6186%
+Wind Speed: 15.3568 m/s
+-------------------------
+Log Type: Pitch
 Pitch: 2 degrees
 Roll: 0 degrees
 Yaw: 0 degrees
@@ -124,6 +122,7 @@ Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
+Log Type: Roll
 Pitch: 2 degrees
 Roll: 3 degrees
 Yaw: 0 degrees
@@ -131,13 +130,45 @@ Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
+Log Type: Sensor Data
 Pitch: 2 degrees
 Roll: 3 degrees
 Yaw: 0 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
+Altitude: 1000.49 ft
+Airspeed: 250.54 knots
+Orientation: -0.0288687 degrees
 -------------------------
+Altitude: 1000.49 ft
+Airspeed: 250.54 knots
+Orientation: -0.0288687 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -5.79074C
+Humidity: 22.6186%
+Wind Speed: 15.3568 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: 32.6419C
+Humidity: 17.9474%
+Wind Speed: 14.8053 m/s
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: 49.875C
+Humidity: 61.7054%
+Wind Speed: 13.2191 m/s
+-------------------------
+Log Type: Pitch
 Pitch: 2 degrees
 Roll: 0 degrees
 Yaw: 0 degrees
@@ -145,6 +176,7 @@ Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
+Log Type: Roll
 Pitch: 2 degrees
 Roll: 3 degrees
 Yaw: 0 degrees
@@ -152,6 +184,7 @@ Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
+Log Type: Yaw
 Pitch: 2 degrees
 Roll: 3 degrees
 Yaw: 4 degrees
@@ -159,114 +192,23 @@ Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
 -------------------------
-Pitch: 2 degrees
-Roll: 3 degrees
-Yaw: 4 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Log Type: Pitch
-Pitch: 1 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
 Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: -6.10765C
+Humidity: 39.8889%
+Wind Speed: 15.6163 m/s
 -------------------------
-Log Type: Roll
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 0 degrees
 Altitude: 1000 ft
 Airspeed: 250 knots
 Orientation: 0 degrees
--------------------------
-Log Type: Yaw
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Sensor Data
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Log Type: Pitch
-Pitch: 1 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Roll
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Yaw
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Sensor Data
-Pitch: 1 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
--------------------------
-Log Type: Pitch
-Pitch: 1 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Pitch
-Pitch: 3 degrees
-Roll: 0 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Roll
-Pitch: 3 degrees
-Roll: 2 degrees
-Yaw: 0 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Yaw
-Pitch: 3 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 1000 ft
-Airspeed: 250 knots
-Orientation: 0 degrees
--------------------------
-Log Type: Sensor Data
-Pitch: 3 degrees
-Roll: 2 degrees
-Yaw: 3 degrees
-Altitude: 991 ft
-Airspeed: 252 knots
-Orientation: 1 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: 28.1555C
+Humidity: 2.62937%
+Wind Speed: 19.5687 m/s
 -------------------------
