@@ -9,6 +9,7 @@ class UserInterface {
 public:
     void displayMenu() const;
     void handleInput(FlightControl& fc, SensorSim& ss, GPSsim& gps, WeatherSim& weather);
+    void fetchAndDisplayGPSData();
 
 private:
     void logData(const FlightControl& fc, const SensorSim& ss, const std::string& logType) const;
