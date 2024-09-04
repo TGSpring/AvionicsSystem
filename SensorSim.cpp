@@ -1,5 +1,8 @@
 #include "SensorSim.h"
-#include <cstdlib> // for rand()
+#include <cstdlib> // For rand()
+#include <cmath> // For fmod()
+#include <random> // For random number generation
+#include <iostream> // For debugging (if needed)
 
 // Custom clamp function
 template <typename T>
@@ -23,21 +26,21 @@ const double MIN_AIRSPEED = 0.0;
 const double TEMP_EFFECT = 0.05;
 const double HUMIDITY_EFFECT = 0.02;
 
-
 double SensorSim::getAltitude() const {
-	return altitude;
+    return altitude;
 }
 
 double SensorSim::getAirspeed() const {
-	return airspeed;
+    return airspeed;
 }
 
 double SensorSim::getOrientation() const {
-	return orientaion;
+    return orientation;
 }
 
 void SensorSim::updateSensor() {
-	//Simulate sensor udpates with random changes
+    // Create uniform distributions for altitude and airspeed changes
+    std::uniform_real_distribution<double> uniform_dist(-0.1, 0.1);
 
     // Update altitude with Gaussian noise and temperature effect
     double altitude_change = uniform_dist(gen) + noise_dist(gen) - TEMP_EFFECT * (temperature - 15.0);

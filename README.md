@@ -1,42 +1,53 @@
 # Avionics System Simulation
 
-## Introduction
+## Overview
 
-Welcome to the Avionics System Simulation project! This project is a simulation of an avionics system, which is a part of an aircraft's electronic systems responsible for controlling various flight parameters. This program allows users to adjust pitch, roll, and yaw angles, and display sensor data such as altitude, airspeed, and orientation.
+The Avionics System Simulation project is designed to simulate avionics systems with real-time data integration. This branch, `real_data_attempt`, focuses on integrating real GPS data into the simulation.
 
-## Purpose
+## Current Features
 
-The primary goal of this project is to demonstrate and improve my proficiency in C++ programming. Through this project, I aim to:
+- **Real-Time GPS Data Integration**: The project now fetches real GPS data using the Overpass API from OpenStreetMap.
+- **Data Handling**: The system processes GPS data and updates the simulation accordingly.
+- **File-Based Data Simulation**: In case of API issues, fallback to local file-based data retrieval.
 
-- Develop a solid understanding of C++ concepts and best practices.
-- Gain hands-on experience with real-world applications of C++.
-- Showcase my coding skills and problem-solving abilities to potential employers.
+## Setup
 
-## Features
+1. **Dependencies**:
+   - [CURL](https://curl.se/)
+   - [nlohmann/json](https://github.com/nlohmann/json)
+   - [Python](https://www.python.org/) (for running the `fetch_gps_data.py` script)
 
-- **Adjust Flight Controls**: Users can adjust the pitch, roll, and yaw angles of the aircraft.
-- **Display Sensor Data**: The system simulates and displays sensor data including altitude, airspeed, and orientation.
-- **User-Friendly Interface**: The program provides a simple text-based menu for interacting with the system.
+2. **Configuration**:
+   - Ensure that `curl` is installed and accessible.
+   - The project uses `nlohmann/json` for JSON parsing. Ensure it's properly linked in your build system.
+   - Update the API URL in the `GPSsim` class to the correct endpoint if needed.
 
-## Getting Started
+3. **Building**:
+   - Run the build command for your environment (e.g., `cmake` or `make`).
 
-### Prerequisites
+4. **Running**:
+   - Ensure that `fetch_gps_data.py` is correctly placed in the project's root directory.
+   - Execute the simulation program. The program will fetch and display real-time GPS data.
 
-- Visual Studio 2019 or later
-- Basic understanding of C++ programming
+## Fetching GPS Data
 
-### Installation
+The `fetch_gps_data.py` script is used to fetch real-time GPS data. Ensure that it is correctly configured to call the Overpass API and handle the response. The script writes data to `gps_data_json`, which the simulation then reads.
 
-1. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/avionics-system-simulation.git
-    ```
+## Known Issues
 
-2. Open the solution file (`AvionicsSystem.sln`) in Visual Studio.
+- **API Data Handling**: If the API returns unexpected data, or if there's an issue with data retrieval, the system may not update correctly. Ensure the API is reachable and returning valid data.
+- **Data Accuracy**: GPS data might not always be accurate depending on API responses and network conditions.
 
-3. Build and run the project.
+## Future Work
 
-### Usage
+- **Enhance Data Validation**: Improve error handling and validation of GPS data.
+- **Implement Additional Simulations**: Integrate weather data and other avionics components.
+- **Testing**: Continue to develop and refine test cases for different scenarios.
 
-1. Run the program.
-2. Follow the on-screen menu to adjust flight controls or display sensor data.
+## Contributing
+
+If you'd like to contribute to the project, please fork the repository and create a pull request with your changes. Ensure that your code adheres to the project's style guidelines and includes appropriate tests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

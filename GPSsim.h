@@ -1,24 +1,35 @@
-#pragma once
-#include "GPSdata.h"
-#include <random>
+#ifndef GPSSIM_H
+#define GPSSIM_H
 
+#include <curl/curl.h>
+#include <nlohmann/json.hpp> // For JSON parsing
+
+// Define the GPSdata struct to hold GPS coordinates and altitude
+struct GPSdata {
+    double latitude;   // Latitude coordinate
+    double longitude;  // Longitude coordinate
+    double altitude;   // Altitude in meters
+};
+
+// GPSsim class declaration
 class GPSsim {
 public:
-	GPSsim();
-	GPSdata getCurrentData() const;
-	void updateData();
+    GPSsim(); // Constructor to initialize CURL and API URL
+    ~GPSsim(); // Destructor to clean up CURL resources
 
-	GPSsim(const GPSsim&) = delete;
-	GPSsim operator=(const GPSsim&) = delete;
+    // Method to get the most recent GPS data
+    GPSdata getCurrentData() const;
 
-	GPSsim(GPSsim&&) noexcept = default;
-	GPSsim& operator=(GPSsim&&) noexcept = default;
+    // Method to update the GPS data by fetching from the API
+    void updateData();
 
 private:
-	GPSdata currentData;
-	std::random_device rd;
-	std::mt19937 gen;
-	std::uniform_real_distribution<> latitudeDist;
-	std::uniform_real_distribution<> longitudeDist;
-	std::uniform_int_distribution<> altitudeDist;
+    // Method to parse the JSON response from the API
+    void parseResponse(const std::string& response);
+
+    CURL* curl;          // CURL handle for making HTTP requests
+    std::string apiUrl;  // URL for the Overpass API
+    GPSdata currentData; // Stores the current GPS data
 };
+
+#endif // GPSSIM_H
