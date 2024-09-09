@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\9620beec61da34eeb0812ea094d6d33e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config-version.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-targets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config-version.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config-version.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config-version.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\nlohmann_json</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\nlohmann_json</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\nlohmann_json</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-debug.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-release.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake">
+      <Filter>Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\zlib</Filter>
+    </None>
+    <None Include="C:\Users\tyler\source\repos\AvionicsSystem\vcpkg.json">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{10F54709-5D58-3EC1-AE14-06B3370541AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{F21ABBB5-3929-330A-9D2D-D7FE2BE71B38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bson-1.0">
+      <UniqueIdentifier>{87F3EF6B-2B2D-3601-BE4F-6213CDFF1020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\bsoncxx">
+      <UniqueIdentifier>{A27CF7B5-7182-3DA2-A2BD-040241CCA7D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\curl">
+      <UniqueIdentifier>{348DFFB5-5ADB-3B85-AFE0-EFBE829D1B88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\gtest">
+      <UniqueIdentifier>{1E28CF44-3009-3B13-8AE0-3DA3067A4A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongoc-1.0">
+      <UniqueIdentifier>{CBECEC8C-C331-30F7-80D5-17F4FF4ED9AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\mongocxx">
+      <UniqueIdentifier>{C6C542AC-233B-3BAB-8938-9A129C960A88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\nlohmann_json">
+      <UniqueIdentifier>{0316F51C-5152-3AC4-8896-9FE4683D6A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc">
+      <UniqueIdentifier>{C71544E8-6999-3651-A9C1-374D37830559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\build\vcpkg_installed\x64-windows\share\zlib">
+      <UniqueIdentifier>{E450D55E-1B51-3DAC-A54E-90FCB1B51025}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

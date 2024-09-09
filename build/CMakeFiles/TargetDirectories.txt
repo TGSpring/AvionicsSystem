@@ -1,0 +1,4 @@
+C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/main.dir
+C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/ZERO_CHECK.dir

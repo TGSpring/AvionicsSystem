@@ -212,3 +212,21 @@ Temperature: 28.1555C
 Humidity: 2.62937%
 Wind Speed: 19.5687 m/s
 -------------------------
+Log Type: Sensor Data
+Pitch: 0 degrees
+Roll: 0 degrees
+Yaw: 0 degrees
+Altitude: 1000.4 ft
+Airspeed: 250.191 knots
+Orientation: -2.35371 degrees
+-------------------------
+Altitude: 1000 ft
+Airspeed: 250 knots
+Orientation: 0 degrees
+Latitude: 0
+Longitude: 0
+GPS Altitude: 0 feet
+Temperature: 43.8025C
+Humidity: 44.9108%
+Wind Speed: 2.04027 m/s
+-------------------------

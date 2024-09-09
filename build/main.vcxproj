@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3883AE96-DB07-343E-9AA5-1A8236B35317}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>main</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/tyler/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/tyler/source/repos/AvionicsSystem/build/Debug/main.exe -installedDir C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\debug\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\debug\lib\gmock.lib;vcpkg_installed\x64-windows\debug\lib\manual-link\gmock_main.lib;bsoncxx.lib;mongocxx.lib;vcpkg_installed\x64-windows\debug\lib\libcurl-d.lib;vcpkg_installed\x64-windows\debug\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tyler/source/repos/AvionicsSystem/build/Debug/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tyler/source/repos/AvionicsSystem/build/Debug/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/tyler/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/tyler/source/repos/AvionicsSystem/build/Release/main.exe -installedDir C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gmock_main.lib;bsoncxx.lib;mongocxx.lib;vcpkg_installed\x64-windows\lib\libcurl.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tyler/source/repos/AvionicsSystem/build/Release/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tyler/source/repos/AvionicsSystem/build/Release/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/tyler/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/tyler/source/repos/AvionicsSystem/build/MinSizeRel/main.exe -installedDir C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gmock_main.lib;bsoncxx.lib;mongocxx.lib;vcpkg_installed\x64-windows\lib\libcurl.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tyler/source/repos/AvionicsSystem/build/MinSizeRel/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tyler/source/repos/AvionicsSystem/build/MinSizeRel/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/tyler/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/tyler/source/repos/AvionicsSystem/build/RelWithDebInfo/main.exe -installedDir C:/Users/tyler/source/repos/AvionicsSystem/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gmock_main.lib;bsoncxx.lib;mongocxx.lib;vcpkg_installed\x64-windows\lib\libcurl.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tyler/source/repos/AvionicsSystem/build/RelWithDebInfo/main.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tyler/source/repos/AvionicsSystem/build/RelWithDebInfo/main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tyler\source\repos\AvionicsSystem\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/tyler/source/repos/AvionicsSystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SC:/Users/tyler/source/repos/AvionicsSystem -BC:/Users/tyler/source/repos/AvionicsSystem/build --check-stamp-file C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeSystem.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\vcpkg.json;C:\Users\tyler\source\repos\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindGTest.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\FindThreads.cmake;C:\mingw64\share\cmake-3.27\Modules\FindZLIB.cmake;C:\mingw64\share\cmake-3.27\Modules\GoogleTest.cmake;C:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\mingw64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/tyler/source/repos/AvionicsSystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SC:/Users/tyler/source/repos/AvionicsSystem -BC:/Users/tyler/source/repos/AvionicsSystem/build --check-stamp-file C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeSystem.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\vcpkg.json;C:\Users\tyler\source\repos\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindGTest.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\FindThreads.cmake;C:\mingw64\share\cmake-3.27\Modules\FindZLIB.cmake;C:\mingw64\share\cmake-3.27\Modules\GoogleTest.cmake;C:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\mingw64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/tyler/source/repos/AvionicsSystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SC:/Users/tyler/source/repos/AvionicsSystem -BC:/Users/tyler/source/repos/AvionicsSystem/build --check-stamp-file C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeSystem.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\vcpkg.json;C:\Users\tyler\source\repos\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindGTest.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\FindThreads.cmake;C:\mingw64\share\cmake-3.27\Modules\FindZLIB.cmake;C:\mingw64\share\cmake-3.27\Modules\GoogleTest.cmake;C:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\mingw64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/tyler/source/repos/AvionicsSystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\mingw64\bin\cmake.exe -SC:/Users/tyler/source/repos/AvionicsSystem -BC:/Users/tyler/source/repos/AvionicsSystem/build --check-stamp-file C:/Users/tyler/source/repos/AvionicsSystem/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\3.27.1\CMakeSystem.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bson-1.0\bson_shared-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\bsoncxx\bsoncxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-1.0-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongoc-1.0\mongoc-targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config-version.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\mongocxx\mongocxx_targets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-debug.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config-release.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\unofficial-utf8proc\unofficial-utf8proc-config.cmake;C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\tyler\source\repos\AvionicsSystem\vcpkg.json;C:\Users\tyler\source\repos\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\mingw64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\FindGTest.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\mingw64\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\mingw64\share\cmake-3.27\Modules\FindThreads.cmake;C:\mingw64\share\cmake-3.27\Modules\FindZLIB.cmake;C:\mingw64\share\cmake-3.27\Modules\GoogleTest.cmake;C:\mingw64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\mingw64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tyler\source\repos\AvionicsSystem\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\AvionicsSystem.cpp" />
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\FlightControl.cpp" />
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\SensorSim.cpp" />
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\GPSsim.cpp" />
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\WeatherSim.cpp" />
+    <ClCompile Include="C:\Users\tyler\source\repos\AvionicsSystem\UserInterface.cpp" />
+    <Natvis Include="C:\Users\tyler\source\repos\AvionicsSystem\build\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_json.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\tyler\source\repos\AvionicsSystem\build\ZERO_CHECK.vcxproj">
+      <Project>{FCA07A40-B517-39CA-B57E-69291BFD13B8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
